@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+FEATURES
+Safe blood saves lives.There is a constant need for a regular supply of blood because it can be stored only for a limited period of time before use.Blood is the most precious gift that anyone can give to another person – the gift of life.Here are some common features found in blood donation websites:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1)User Registration:
+Donor registration: Users can create donor profiles by providing their personal information, such as name, contact details, blood type, and eligibility criteria.
+Recipient registration: Individuals or organizations in need of blood can register as recipients and provide relevant information about the recipient and their requirements.
+Volunteer registration: Individuals can volunteer themselves for any patients in their area and can take initiative or volunteer to blood donation campaigns held.
 
-## Available Scripts
+2)Search and Matching:
+Donor search: Users can search for available donors based on various parameters, including location, blood type, availability, and donor preferences.
+Recipient search: Donors can search for blood requests based on factors like location, blood type compatibility, and urgency.
 
-In the project directory, you can run:
+3)Blood Request and Donation Management:
+Blood request submission: Recipients can submit blood requests, specifying their blood type requirements, urgency, and any additional information.
+Donor availability and response: Donors can indicate their availability for donation and respond to specific blood requests based on their eligibility and availability.
+Donation scheduling: The website may provide functionality for scheduling donation appointments and managing the logistics of the donation process.
 
-### `npm start`
+4)Notifications and Alerts:
+Donor notifications: Donors can receive notifications when their blood type is needed in their area or when there are urgent requests for blood donations.
+Recipient notifications: Recipients can receive alerts when potential donors match their requirements and express interest in donating.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Further Updates
+5)Donation History and Records:
+Donor profile management: Donors can manage their profiles, update personal information, and view their donation history and records.
+Recipient tracking: Recipients can track and manage their blood requests, including the status of requests and donor responses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6) Integration with External Systems:
+SMS and email notifications: Integration with SMS and email services to send automated notifications and alerts to donors and recipients.
+External databases: Integration with external databases or registries to validate and cross-reference donor information and eligibility.
 
-### `npm test`
+7)Educational Resources and Awareness:
+Information and resources: The website may provide educational materials about blood donation, eligibility criteria, benefits, and the impact of donations.
+Awareness campaigns: Blood donation websites often promote and organize awareness campaigns, blood drives, and events to encourage donation.
+ Content management: The website may include an admin panel for managing site content, including FAQs, news, events, and awareness campaigns.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
