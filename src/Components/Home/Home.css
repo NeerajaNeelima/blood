@@ -3,11 +3,52 @@
     width: 800px;
 }
 .bg-img{
-    background-image: url('../../assets/blood2.jpeg');
-    height: 700px;
+    background-image: url('../../assets/blood.jpeg');
+    height: 500px;
     width:50%; 
     margin: 0;
-    background-position: center; 
+   
   background-repeat: no-repeat; 
   background-size: cover; 
 }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    height: 300px;
+    width: 600px;
+}
+.right h4{
+    color: white;
+    width: 300px;
+    background: linear-gradient(to left, red, black); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.right h1{
+    font-size: 100px;
+    background: linear-gradient(to right, red, black); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+}
+span{
+    font-size: 20px;
+}
+.right img{
+    mix-blend-mode: color-burn;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -20%;
+}
+

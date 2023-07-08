@@ -5,6 +5,7 @@ import {FaBars,FaTimes} from 'react-icons/fa';
 import {Link} from "react-router-dom";
 import { useState } from 'react';
 import logo from '../../assets/blood-donation.png'
+import { isVisible } from '@testing-library/user-event/dist/utils';
 
 const Navbar = () => {
     const [state,clickState]=useState(false);
@@ -39,7 +40,11 @@ const Navbar = () => {
                 <Link  to="/emergency">Emergency Blood</Link>
             </li>
             <li>
-                <Link  to="/search">Search Volunteers</Link>
+                <Link  to="/search" className='dropdown'>Search Volunteers </Link>
+                <ul style={{visibility:"none",display:"none"}} className='menu'>
+                  <li>Volunteers</li>
+                  <li>Records</li>
+                </ul>
             </li>
            
         </ul>
