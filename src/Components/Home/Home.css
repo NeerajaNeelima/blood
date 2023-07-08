@@ -1,0 +1,12 @@
+.imag{
+    height: 800px;
+    width: 800px;
+}
+.bg-img{
+    background-image: url('../../assets/blood2.jpeg');
+   
+    height: 700px;
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
