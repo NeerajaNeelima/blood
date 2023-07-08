@@ -7,7 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { TextField,Button } from '@mui/material'
+import { Typography,TextField,Button } from '@mui/material'
 function createData(
   name: string,
   blood: string,

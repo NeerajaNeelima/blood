@@ -22,7 +22,7 @@ app.use(express.json());
 
 var corsOptions = {
   Credential: true,
-  origin: ["https://api.theautring.com/api/v1/getalluser", "http://localhost:4011/api/v1/getalluser"],
+  
   optionsSuccessStatus: 200,
   changeOrigin:true,
 };
@@ -47,7 +47,7 @@ wss.on("connection",async (ws) => {
             getallusers()
             async function getallusers() {
                 try {
-                await axios.get('http://localhost:4011/api/v1/getalluser',{timeout:10000})                
+                await axios.get('http://localhost:4011/api/donars',{timeout:10000})                
                   .then(response =>{
                     const users = response.data.data.users
                     const emails = users.map(user => user.email);
@@ -92,16 +92,16 @@ const Sendmail = (req,res) =>{
     let MailGenerator = new Mailgen({
         theme: "salted",
         product : {
-            name: "SIMMI FOUNDATION",
+            name: "Blood Donation",
             link : 'https://mailgen.js/'
         }
     })
 
     let response = {
         body: {
-            title : "New posted data",
+            title : "Emergency Blood needed",
             intro: details,
-            outro: "Checkout the new updates",
+            outro: "Are you available",
             signature: false,
         }
     }
