@@ -1,3 +1,5 @@
+Title : Blood Donation Website
+Technology :REACT JS
 FEATURES
 Safe blood saves lives.There is a constant need for a regular supply of blood because it can be stored only for a limited period of time before use.Blood is the most precious gift that anyone can give to another person – the gift of life.Here are some common features found in blood donation websites:
 
@@ -28,8 +30,24 @@ Recipient tracking: Recipients can track and manage their blood requests, includ
 SMS and email notifications: Integration with SMS and email services to send automated notifications and alerts to donors and recipients.
 External databases: Integration with external databases or registries to validate and cross-reference donor information and eligibility.
 
-7)Educational Resources and Awareness:
+7) Resources and Awareness:
 Information and resources: The website may provide educational materials about blood donation, eligibility criteria, benefits, and the impact of donations.
 Awareness campaigns: Blood donation websites often promote and organize awareness campaigns, blood drives, and events to encourage donation.
  Content management: The website may include an admin panel for managing site content, including FAQs, news, events, and awareness campaigns.
 
+ How To Run Project :
+ For Now we have just implement the fronted end design so use 'npm start' to start the Reach Project.
+ Packages : to know how many packages are required to start the project .
+ 1.react-router-dom
+ 2.nodemon
+ 3.mailgen
+ 4.ws
+ 5.node
+ 6.Materia UI
+ 7.formik
+ 8.yup
+
+
+
+ Git Hub LInk : https://github.com/NeerajaNeelima/blood.git
+ Deployed project link : https://blooddonation-umber.vercel.app/
